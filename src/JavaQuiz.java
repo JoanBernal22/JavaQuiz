@@ -18,17 +18,56 @@ public class JavaQuiz {
         System.out.println("C) String");
        
         System.out.print("La respuesta es:");
-        respuesta = leer.nextLine();
+        respuesta = leer.next();
 
-          if (respuesta == "B") {
-            System.out.println("Es correcto");
+        if (respuesta.equals("B")) {
+            System.out.println("Correcto!");
             aciertos++;
-          }
-         
-          else { 
-             System.out.println("Incorrecto");
          }
-           
+        
+         else{
+            System.out.println("Incorrecto");
+        }
+       
+         //Inicio de ronda 2 - Integrante A
+        System.out.println("--- RONDA 2 ---");
+        System.out.println("\1n ¿Cuál es el primer índice de un array en Java?");
+        System.out.println("A) 1");
+        System.out.println("B) -1");
+        System.out.println("C) 0");
+       
+        System.out.print("La respuesta es:");
+        respuesta = leer.next();
+
+        if (respuesta.equals("C")) {
+            System.out.println("Correcto!");
+            aciertos++;
+         }
+        
+         else{
+            System.out.println("Incorrecto");
+        }
+       
+      //Inicio de ronda 3 - Integrante A
+        System.out.println("--- RONDA 3 ---");
+        System.out.println("\1n ¿Qué instrucción permite mostrar texto en pantalla?");
+        System.out.println("A) Scanner");
+        System.out.println("B) System.out.println()");
+        System.out.println("C) import");
+       
+        System.out.print("La respuesta es:");
+        respuesta = leer.next();
+
+        if (respuesta.equals("B")) {
+            System.out.println("Correcto!");
+            aciertos++;
+         }
+        
+         else{
+            System.out.println("Incorrecto");
+        }
+       
+    
         
 
 
