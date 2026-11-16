@@ -66,7 +66,74 @@ public class JavaQuiz {
          else{
             System.out.println("Incorrecto");
         }
+
+
+
+        //////////////////////////Integrante B ////////////////////////
        
+        //Inicio de ronda 4 - Integrante B
+        System.out.println("--- RONDA 4 ---");
+        System.out.println("\1n ¿Qué estructura se utiliza para tomar decisiones en Java?");
+        System.out.println("A) if");
+        System.out.println("B) Scanner");
+        System.out.println("C) System");
+       
+        System.out.print("La respuesta es:");
+        respuesta = leer.next();
+
+        if (respuesta.equals("A")) {
+            System.out.println("Correcto!");
+            aciertos++;
+         }
+        
+         else{
+            System.out.println("Incorrecto");
+        }
+        
+        //Inicio de ronda 5 - Integrante B
+        System.out.println("--- RONDA 5 ---");
+        System.out.println("\1n ¿Qué bucle se ejecuta mientras se cumpla una condición?");
+        System.out.println("A) if");
+        System.out.println("B) while");
+        System.out.println("C) switch");
+       
+        System.out.print("La respuesta es:");
+        respuesta = leer.next();
+
+        if (respuesta.equals("B")) {
+            System.out.println("Correcto!");
+            aciertos++;
+         }
+        
+         else{
+            System.out.println("Incorrecto");
+        }
+
+        //Inicio de ronda 6 - Integrante B
+        System.out.println("--- RONDA 6 ---");
+        System.out.println("\1n ¿Qué método permite conocer la longitud de un String?");
+        System.out.println("A) size()");
+        System.out.println("B) length()");
+        System.out.println("C) count()");
+       
+        System.out.print("La respuesta es:");
+        respuesta = leer.next();
+
+        if (respuesta.equals("B")) {
+            System.out.println("Correcto!");
+            aciertos++;
+         }
+        
+         else{
+            System.out.println("Incorrecto");
+        }
+
+        System.out.println("Acertaste un total de: " + aciertos + " preguntas");
+
+    leer.close();
+
+        
+        
     
         
 
