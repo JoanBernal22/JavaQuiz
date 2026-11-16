@@ -1,0 +1,9 @@
+
+# Archivos compilados de Java
+*.class
+
+# Carpetas de configuración de VSCode
+.vscode/
+
+# Archivos temporales
+*.tmp
